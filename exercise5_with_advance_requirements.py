@@ -21,9 +21,11 @@ days_in_month = {
 # After making a dictionary we need a place to store the values that 
 # will be inputted by the user. 
 month_number = int(input("Enter the month of your choice (1-12): "))
-year = int(input("Enter the year of your choice: "))
-# This asks the user for enter a month number between 1-12 and then stores the value in
+# This asks the user to enter a month number between 1-12 and then stores the value in
 # the month_number variable.
+year = int(input("Enter the year of your choice: "))
+# This asks the user to enter any year of their choice, it then stores that 
+# value within the variable "year".
 
 if 1 <= month_number <= 12: # Chechks if the inputted number is within range of 1-12.
     print(f"There are {days_in_month[month_number]} days in month {month_number}.")
