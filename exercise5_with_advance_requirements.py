@@ -21,6 +21,7 @@ days_in_month = {
 # After making a dictionary we need a place to store the values that 
 # will be inputted by the user. 
 month_number = int(input("Enter the month of your choice (1-12): "))
+year = int(input("Enter the year of your choice: "))
 # This asks the user for enter a month number between 1-12 and then stores the value in
 # the month_number variable.
 
